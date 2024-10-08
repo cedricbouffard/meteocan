@@ -1,0 +1,12 @@
+Package: meteocan
+Type: Package
+Title: Retrieve and Process Meteorological Data
+Version: 0.1.0
+Author: Your Name
+Maintainer: Your Name <your-email@example.com>
+Description: A package to retrieve and process meteorological data from weather stations, with missing data imputed using random forests.
+Imports: dplyr, weathercan, janitor, lubridate, randomForest
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0

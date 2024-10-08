@@ -1,0 +1,6 @@
+export(meteocan)
+importFrom(dplyr, select, slice, mutate, group_by, ungroup, row_number, select_if, ends_with, filter)
+importFrom(weathercan, stations_meta, stations_dl, stations_search, weather_dl)
+importFrom(janitor, remove_empty)
+importFrom(lubridate, today, year)
+importFrom(randomForest, randomForest)
